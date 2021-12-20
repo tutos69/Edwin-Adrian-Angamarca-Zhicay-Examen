@@ -33,7 +33,8 @@ if (($idSeccion == null) || ($idSeccion == '')) {
           <li><a href="../vista/Productos.php">Comidas</a></li>
           <li><a href="../vista/AgregarComida.php">Agregar Comida</a></li>
           <li><a href="../vista/Tarjeta.php">Agregar Tarjeta</a></li>
-         
+          <li><a href="../vista/filtro.php">Filtro Tarjeta</a></li>
+          <li><a href="../vista/Listapedidos.php">Filtro Pediddos</a></li>
           <li><a href="../vista/carrito.php">Carrito <?php if(isset($_SESSION['carro'])){
             $contador = count($_SESSION['carro']);
             echo $contador;

@@ -31,7 +31,7 @@ if (isset($_POST['add'])) {
 <div class="row">
     <?php foreach ($listado as $restaurantes) { ?>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="card">
                 <form action="" method="POST">
                     <img class="card-img-top" src="../../img/<?php echo $restaurantes['com_imagen']; ?>" alt="">
